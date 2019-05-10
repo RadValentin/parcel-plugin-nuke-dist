@@ -1,0 +1,22 @@
+{
+  "name": "parcel-plugin-nuke-dist",
+  "version": "1.0.0",
+  "description": "Parcel plugin to wipe dist directory before compiling a new bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadValentin/parcel-plugin-nuke-dist.git"
+  },
+  "keywords": [
+    "parcel"
+  ],
+  "author": "Valentin Radulescu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/RadValentin/parcel-plugin-nuke-dist/issues"
+  },
+  "homepage": "https://github.com/RadValentin/parcel-plugin-nuke-dist#readme"
+}
