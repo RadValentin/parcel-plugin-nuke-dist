@@ -1,3 +1,3 @@
 module.exports = function(bundler) {
-  console.log('Hello Parcel');
+  console.log(bundler);
 }
