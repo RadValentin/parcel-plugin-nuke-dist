@@ -1,5 +1,7 @@
 # parcel-plugin-nuke-dist
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RadValentin/parcel-plugin-nuke-dist.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
