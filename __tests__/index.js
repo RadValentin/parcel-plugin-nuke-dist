@@ -2,6 +2,7 @@ const Bundler = require('parcel-bundler');
 const path = require('path');
 const fs = require('fs');
 const rimraf = require('rimraf');
+const mkdirp = require('mkdirp');
 const nukeDistPlugin = require('../index.js');
 
 describe('Nuke Dist Plugin', () => {
@@ -16,6 +17,8 @@ describe('Nuke Dist Plugin', () => {
       hmr: false,
       logLevel: 0
     });
+
+    mkdirp.sync(path.join(__dirname, 'dist'));
 
     // Dummy artefact generated outside current build
     fs.closeSync(fs.openSync(path.join(__dirname, 'dist', dummyFileName), 'w'));

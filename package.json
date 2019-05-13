@@ -21,6 +21,7 @@
   "homepage": "https://github.com/RadValentin/parcel-plugin-nuke-dist#readme",
   "devDependencies": {
     "jest": "^24.8.0",
+    "mkdirp": "^0.5.1",
     "parcel-bundler": "^1.12.3"
   },
   "dependencies": {
