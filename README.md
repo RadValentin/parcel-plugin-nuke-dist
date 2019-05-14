@@ -1,7 +1,6 @@
 # parcel-plugin-nuke-dist
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/RadValentin/parcel-plugin-nuke-dist.svg)](https://greenkeeper.io/)
-
+[![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
@@ -17,7 +16,8 @@ Just install it as a dependency and Parcel will take care of the rest.
 ```
 npm install parcel-plugin-nuke-dist --save-dev
 ```
-
+[greenkeeper-image]: https://badges.greenkeeper.io/RadValentin/parcel-plugin-nuke-dist.svg
+[greenkeeper-url]: https://greenkeeper.io/
 [npm-image]: https://img.shields.io/npm/v/parcel-plugin-nuke-dist.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/parcel-plugin-nuke-dist
 [travis-image]: https://img.shields.io/travis/RadValentin/parcel-plugin-nuke-dist.svg?style=flat-square
